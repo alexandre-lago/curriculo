@@ -42,13 +42,18 @@
 .texto{
     display: table-cell;
     float: left;
-    width: 550px;
+    width: 590px;
     margin: 50px;
     margin-top: 10px;
 }
 
 .texto p{
     line-height: 1.5;
+}
+
+.texto h2{
+    padding: 40px;
+    display: inline;
 }
 
 .container{
