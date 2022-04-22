@@ -1,0 +1,145 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(241, 237, 237);
+}
+
+.foto img{
+    width: 200px;
+    border-radius: 100px;
+    padding: 20px;
+    margin: 5px
+}
+
+.apresentacao{
+    display: table;
+    width: 1100px;
+    position: relative;
+}
+
+.foto{
+    display: table-cell;
+    float: left;
+}
+
+.foto:hover{
+    transform: scale(1.05);
+}
+
+.contato{
+    top: 110px;
+    right: 0;
+    position: absolute;
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.contato a{
+    color:#111;
+}
+
+.texto{
+    display: table-cell;
+    float: left;
+    width: 550px;
+    margin: 50px;
+    margin-top: 10px;
+}
+
+.texto p{
+    line-height: 1.5;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.cartao{
+    width: 300px;
+    height: 600px;
+    margin: 10px;
+    border: solid 1px;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 1px 1px 1px 1px #111;
+}
+
+.cartao p{
+    line-height: 1.5;
+}
+
+.cartao:hover{
+    transform: scale(1.05);
+}
+
+.cartao h2{
+    text-align: center;
+}
+
+.cartao-habilidades{
+    width: 300px;
+    height: 380px;
+    margin: 10px;
+    border: solid 1px;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 1px 1px 1px 1px #111;
+}
+
+.cartao-habilidades h2{
+    text-align: center;
+}
+
+.cartao-habilidades:hover{
+    transform: scale(1.05);
+}
+
+.cartao-formacao{
+    width: 300px;
+    height: 380px;
+    margin: 10px;
+    border: solid 1px;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 1px 1px 1px 1px #111;
+}
+
+.cartao-formacao h2{
+    text-align: center;
+}
+
+.cartao-formacao:hover{
+    transform: scale(1.05);
+}
+
+.cartao-projetos{
+    width: 300px;
+    height: 380px;
+    margin: 10px;
+    border: solid 1px;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 1px 1px 1px 1px #111;
+}
+
+.cartao-projetos h2{
+    text-align: center;
+}
+
+.cartao-projetos:hover{
+    transform: scale(1.05);
+}
+
+.contatos a{
+    width: 40px;
+    padding: 0;
+}
+
+@media screen and (max-widht: 480px){
+    .apresentacao, .foto, .texto, .contato, .container{
+        width: auto;
+    }
+}
